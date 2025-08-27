@@ -2,17 +2,24 @@
   --blue: #00acdc;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
   font-weight: 500;
 }
 
-header {
+.header {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: row;
+
+  justify-content: space-between;
+  padding: 0 50px;
 }
 
 .nav__list {
@@ -39,13 +46,9 @@ nav a {
 }
 
 .logo {
-  margin-left: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.left {
-  margin-left: 419px;
+  display: block;
+  width: 40px;
+  height: 40px;
 }
 
 nav a:hover {
@@ -64,11 +67,11 @@ nav a:hover {
   background-color: var(--blue);
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .left {
     margin-left: 243px;
   }
-}
+} */
 
 li + li {
   margin-left: 20px;
