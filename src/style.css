@@ -2,14 +2,11 @@
   --blue: #00acdc;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   font-family: Roboto, Arial, sans-serif;
   font-weight: 500;
+  box-sizing: border-box;
 }
 
 .header {
@@ -20,6 +17,7 @@ body {
 
   justify-content: space-between;
   padding: 0 50px;
+  box-sizing: border-box;
 }
 
 .nav__list {
